@@ -1,0 +1,13 @@
+# mystartup.service
+
+[Unit]
+
+Description=Runs /usr/local/bin/mystartup.sh
+
+[Service]
+
+ExecStart=/usr/local/bin/mystartup.sh
+
+[Install]
+
+WantedBy=multi-user.target
